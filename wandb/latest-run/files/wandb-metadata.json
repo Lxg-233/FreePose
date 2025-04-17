@@ -1,0 +1,45 @@
+{
+  "os":  "Linux-5.15.0-130-generic-x86_64-with-glibc2.17",
+  "python":  "CPython 3.8.20",
+  "startedAt":  "2025-02-25T07:01:13.210630Z",
+  "args":  [
+    "--config",
+    "configs/h36m/MotionAGFormer-small.yaml",
+    "--use-wandb",
+    "--wandb-name",
+    "samll-sT"
+  ],
+  "program":  "train.py",
+  "codePath":  "train.py",
+  "email":  "2320440800@qq.com",
+  "root":  "/media/q/6D0C869A9E01B3E1/lxg/motion2",
+  "host":  "q",
+  "executable":  "/home/q/miniconda3/envs/lxg_n/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  16,
+  "cpu_count_logical":  24,
+  "gpu":  "NVIDIA GeForce RTX 4090",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "502392610816",
+      "used":  "60681867264"
+    }
+  },
+  "memory":  {
+    "total":  "67006308352"
+  },
+  "cpu":  {
+    "count":  16,
+    "countLogical":  24
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4090",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  16384,
+      "architecture":  "Ada"
+    }
+  ],
+  "cudaVersion":  "12.2"
+}

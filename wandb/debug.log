@@ -1,0 +1,44 @@
+2025-02-25 15:01:13,183 INFO    MainThread:2816037 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-02-25 15:01:13,183 INFO    MainThread:2816037 [wandb_setup.py:_flush():67] Configure stats pid to 2816037
+2025-02-25 15:01:13,183 INFO    MainThread:2816037 [wandb_setup.py:_flush():67] Loading settings from /home/q/.config/wandb/settings
+2025-02-25 15:01:13,183 INFO    MainThread:2816037 [wandb_setup.py:_flush():67] Loading settings from /media/q/6D0C869A9E01B3E1/lxg/motion2/wandb/settings
+2025-02-25 15:01:13,184 INFO    MainThread:2816037 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-02-25 15:01:13,184 INFO    MainThread:2816037 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /media/q/6D0C869A9E01B3E1/lxg/motion2/wandb/run-20250225_150113-os1s4pii/logs/debug.log
+2025-02-25 15:01:13,184 INFO    MainThread:2816037 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /media/q/6D0C869A9E01B3E1/lxg/motion2/wandb/run-20250225_150113-os1s4pii/logs/debug-internal.log
+2025-02-25 15:01:13,184 INFO    MainThread:2816037 [wandb_init.py:init():761] calling init triggers
+2025-02-25 15:01:13,185 INFO    MainThread:2816037 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-25 15:01:13,185 INFO    MainThread:2816037 [wandb_init.py:init():784] starting backend
+2025-02-25 15:01:13,185 INFO    MainThread:2816037 [wandb_init.py:init():788] sending inform_init request
+2025-02-25 15:01:13,210 INFO    MainThread:2816037 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: fork
+2025-02-25 15:01:13,210 INFO    MainThread:2816037 [wandb_init.py:init():803] backend started and connected
+2025-02-25 15:01:13,211 INFO    MainThread:2816037 [wandb_init.py:init():896] updated telemetry
+2025-02-25 15:01:13,211 INFO    MainThread:2816037 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-02-25 15:01:14,029 INFO    MainThread:2816037 [wandb_init.py:init():995] starting run threads in backend
+2025-02-25 15:01:14,087 INFO    MainThread:2816037 [wandb_run.py:_console_start():2377] atexit reg
+2025-02-25 15:01:14,087 INFO    MainThread:2816037 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-02-25 15:01:14,087 INFO    MainThread:2816037 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-02-25 15:01:14,087 INFO    MainThread:2816037 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-02-25 15:01:14,088 INFO    MainThread:2816037 [wandb_init.py:init():1037] run started, returning control to user process
+2025-02-25 15:01:14,088 INFO    MainThread:2816037 [wandb_run.py:_config_callback():1261] config_cb None None {'run_id': 'os1s4pii'}
+2025-02-25 15:01:14,088 INFO    MainThread:2816037 [wandb_run.py:_config_callback():1261] config_cb None None {'learning_rate': 0.0005, 'batch_size': 16, 'weight_decay': 0.01, 'lr_decay': 0.99, 'epochs': 60, 'model_name': 'MotionAGFormer', 'n_layers': 26, 'dim_in': 3, 'dim_feat': 64, 'dim_rep': 512, 'dim_out': 3, 'mlp_ratio': 4, 'act_layer': 'gelu', 'attn_drop': 0.0, 'drop': 0.0, 'drop_path': 0.0, 'use_layer_scale': True, 'layer_scale_init_value': 1e-05, 'use_adaptive_fusion': True, 'num_heads': 8, 'qkv_bias': False, 'qkv_scale': None, 'hierarchical': False, 'use_temporal_similarity': True, 'neighbour_num': 2, 'temporal_connection_len': 1, 'use_tcn': False, 'graph_only': False, 'n_frames': 81, 'data_root': 'data/motion3d/', 'data_root_2d': 'data/motion2d/', 'subset_list': ['H36M-81'], 'dt_file': 'h36m_sh_conf_cam_source_final.pkl', 'num_joints': 17, 'root_rel': True, 'add_velocity': False, 'lambda_3d_velocity': 20.0, 'lambda_scale': 0.5, 'lambda_lv': 0.0, 'lambda_lg': 0.0, 'lambda_a': 0.0, 'lambda_av': 0.0, 'use_proj_as_2d': False, 'flip': True, 'name': 'MotionAGFormer-small'}
+2025-02-25 15:01:14,089 INFO    MainThread:2816037 [wandb_run.py:_config_callback():1261] config_cb None None {'installed_packages': {'GitPython': '3.1.44', 'MarkupSafe': '2.1.5', 'PyWavelets': '1.4.1', 'PyYAML': '6.0.2', 'annotated-types': '0.7.0', 'asttokens': '3.0.0', 'backcall': '0.2.0', 'certifi': '2025.1.31', 'charset-normalizer': '3.4.1', 'click': '8.1.8', 'contourpy': '1.1.1', 'cycler': '0.12.1', 'decorator': '5.1.1', 'docker-pycreds': '0.4.0', 'easydict': '1.13', 'einops': '0.8.1', 'eval-type-backport': '0.2.2', 'executing': '2.2.0', 'filelock': '3.16.1', 'filterpy': '1.4.5', 'fonttools': '4.56.0', 'fsspec': '2025.2.0', 'gitdb': '4.0.12', 'huggingface-hub': '0.29.1', 'idna': '3.10', 'imageio': '2.35.1', 'importlib-metadata': '8.5.0', 'importlib-resources': '6.4.5', 'ipython': '8.12.3', 'jedi': '0.19.2', 'jinja2': '3.1.5', 'kiwisolver': '1.4.7', 'lazy-loader': '0.4', 'llvmlite': '0.41.1', 'matplotlib': '3.7.1', 'matplotlib-inline': '0.1.7', 'mpmath': '1.3.0', 'networkx': '3.1', 'numba': '0.58.1', 'numpy': '1.24.4', 'nvidia-cublas-cu12': '12.1.3.1', 'nvidia-cuda-cupti-cu12': '12.1.105', 'nvidia-cuda-nvrtc-cu12': '12.1.105', 'nvidia-cuda-runtime-cu12': '12.1.105', 'nvidia-cudnn-cu12': '9.1.0.70', 'nvidia-cufft-cu12': '11.0.2.54', 'nvidia-curand-cu12': '10.3.2.106', 'nvidia-cusolver-cu12': '11.4.5.107', 'nvidia-cusparse-cu12': '12.1.0.106', 'nvidia-nccl-cu12': '2.20.5', 'nvidia-nvjitlink-cu12': '12.8.61', 'nvidia-nvtx-cu12': '12.1.105', 'opencv-python': '4.11.0.86', 'packaging': '24.2', 'parso': '0.8.4', 'pexpect': '4.9.0', 'pickleshare': '0.7.5', 'pillow': '10.4.0', 'pip': '24.2', 'platformdirs': '4.3.6', 'prompt-toolkit': '3.0.50', 'protobuf': '5.29.3', 'psutil': '7.0.0', 'ptyprocess': '0.7.0', 'pure-eval': '0.2.3', 'pydantic': '2.10.6', 'pydantic-core': '2.27.2', 'pygments': '2.19.1', 'pyparsing': '3.1.4', 'python-dateutil': '2.9.0.post0', 'pytorch-wavelets': '1.3.0', 'requests': '2.32.3', 'safetensors': '0.5.2', 'scikit-image': '0.21.0', 'scipy': '1.10.1', 'sentry-sdk': '2.22.0', 'setproctitle': '1.3.5', 'setuptools': '75.1.0', 'six': '1.17.0', 'smmap': '5.0.2', 'stack-data': '0.6.3', 'sympy': '1.13.3', 'tifffile': '2023.7.10', 'timm': '1.0.14', 'torch': '2.4.1', 'torchvision': '0.19.1', 'tqdm': '4.67.1', 'traitlets': '5.14.3', 'triton': '3.0.0', 'typing-extensions': '4.12.2', 'urllib3': '2.2.3', 'wandb': '0.19.7', 'wcwidth': '0.2.13', 'wheel': '0.44.0', 'yacs': '0.1.8', 'zipp': '3.20.2', 'autocommand': '2.2.2', 'backports.tarfile': '1.2.0', 'inflect': '7.3.1', 'jaraco.collections': '5.1.0', 'jaraco.context': '5.3.0', 'jaraco.functools': '4.0.1', 'jaraco.text': '3.12.1', 'more-itertools': '10.3.0', 'tomli': '2.0.1', 'typeguard': '4.3.0'}}
+2025-02-25 23:59:33,736 WARNING MsgRouterThr:2816037 [router.py:message_loop():77] message_loop has been closed
+Traceback (most recent call last):
+  File "/home/q/miniconda3/envs/lxg_n/lib/python3.8/site-packages/wandb/sdk/interface/router_sock.py", line 28, in _read_message
+    resp = self._sock_client.read_server_response(timeout=1)
+  File "/home/q/miniconda3/envs/lxg_n/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 285, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+  File "/home/q/miniconda3/envs/lxg_n/lib/python3.8/site-packages/wandb/sdk/lib/sock_client.py", line 270, in _read_packet_bytes
+    raise SockClientClosedError
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/q/miniconda3/envs/lxg_n/lib/python3.8/site-packages/wandb/sdk/interface/router.py", line 70, in message_loop
+    msg = self._read_message()
+  File "/home/q/miniconda3/envs/lxg_n/lib/python3.8/site-packages/wandb/sdk/interface/router_sock.py", line 30, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-02-25 23:59:33,737 INFO    MsgRouterThr:2816037 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
