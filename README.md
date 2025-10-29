@@ -37,9 +37,7 @@ Please refer to - [MotionAGFormer](https://github.com/taatiteam/motionagformer) 
 
 ## Evaluation
 
-You can download and unzip it to get pretrained weight.
-
-[https://drive.google.com/file/d/1yhXX7VbAjRubZrxd-Rryq3bwYL1b8ko8/view?usp=sharing]: 
+You can download and unzip it to [get pretrained weight](https://drive.google.com/file/d/1yhXX7VbAjRubZrxd-Rryq3bwYL1b8ko8/view?usp=sharing).
 
 After downloading the weight, you can evaluate Human3.6M models by:
 
