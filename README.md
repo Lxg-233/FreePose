@@ -48,7 +48,7 @@ python train.py --eval-only --checkpoint <CHECKPOINT-DIRECTORY> --checkpoint-fil
 
 ## Demo
 
-Our demo is a modified version of the one provided by [MotionAGFormer](https://github.com/taatiteam/MotionAGFormer) repository. First, you need to download YOLOv3 and HRNet pretrained models [here](https://drive.google.com/drive/folders/1_ENAMOsPM7FXmdYRbkwbFHgzQq_B_NQA?usp=sharing) and put it in the './demo/lib/checkpoint' directory. Next, download our base model checkpoint from [here](https://drive.google.com/file/d/1Iii5EwsFFm9_9lKBUPfN8bV5LmfkNUMP/view) and put it in the './checkpoint' directory. Then, you need to put your in-the-wild videos in the './demo/video' directory. We provide [demo](https://drive.google.com/file/d/1hbK1HDz1nMTGYcczOC5r33Mk8nAtLZCr/view?usp=sharing). You can download and unzip it to get demo file. Run the command below:
+Our demo is a modified version of the one provided by [MotionAGFormer](https://github.com/taatiteam/MotionAGFormer) repository. First, you need to download YOLOv3 and HRNet pretrained models [here](https://drive.google.com/drive/folders/1_ENAMOsPM7FXmdYRbkwbFHgzQq_B_NQA?usp=sharing) and put it in the './demo/lib/checkpoint' directory. Next, download our base model checkpoint from [here](https://drive.google.com/file/d/1yhXX7VbAjRubZrxd-Rryq3bwYL1b8ko8/view?usp=sharing) and put it in the './checkpoint' directory. Then, you need to put your in-the-wild videos in the './demo/video' directory. We provide [demo](https://drive.google.com/file/d/1hbK1HDz1nMTGYcczOC5r33Mk8nAtLZCr/view?usp=sharing). You can download and unzip it to get demo file. Run the command below:
 
 ```python
 python vis.py --video sample_video.mp4 --gpu 0
