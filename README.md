@@ -1,6 +1,7 @@
 # [2026]FreePose: Modeling Frequency-Decoupled Motion Trajectories for 3D Human Pose Estimation
 [![PyTorch](https://img.shields.io/badge/-PyTorch-ff69b4?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
 <img width="4849" height="1711" alt="a(1)(1)(1)(1)(1)-第 7 页" src="https://github.com/user-attachments/assets/af95594b-bd95-4fa6-88e9-0af5937fc15c" />
+<img width="671" height="519" alt="WPS图片(1)" src="https://github.com/user-attachments/assets/ed8ceae5-b959-489c-938a-09674931e8fb" />
 
 ## Dataset
 
